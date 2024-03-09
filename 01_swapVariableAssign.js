@@ -24,6 +24,6 @@ var temp = n1;
 n1 = n2;
 var temp1 = n2;
 n2 = n3;
-n3 = temp;
+n3 = temp1;
 console.log("n1:", n1, "n2:", n2, "n3:",n3);
-;
+
