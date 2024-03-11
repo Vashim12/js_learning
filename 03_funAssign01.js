@@ -17,12 +17,12 @@ myLastName();
 console.log(" ========== Step - 2 ==========");
 
  function personalDetails(firstName,lastName,collegeName){
-    console.log("My First Name:Vashim");
-    console.log("My Last Name:Nadaf");
-    console.log("My College Name:AITRC,Vita");
+    console.log("My First Name:",firstName);
+    console.log("My Last Name:",lastName);
+    console.log("My College Name:",collegeName);
 
 } 
-personalDetails("firstName,lastName,collegeName")
+personalDetails("Vashim","Nadaf","AITRC, Vita");
 
 console.log("========== Step - 3 ==========");
 
