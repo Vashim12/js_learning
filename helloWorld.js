@@ -6,3 +6,17 @@ var city;
 city = "pune";
 
 console.log(city);
+
+function helloWorlds() {
+    console.log(`Hello World`);
+    return helloWorlds
+}
+helloWorlds()
+
+var createCounter = function(n) {
+    n = 10;
+    return function(n) {
+       n=10; n >=12, n++ 
+    };
+};
+console.log(n);
