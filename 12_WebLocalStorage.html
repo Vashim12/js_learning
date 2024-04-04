@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage</title>
+</head>
+<body>
+    <script>
+        window.localStorage.setItem("Name", "Vashim");
+        window.localStorage.setItem("City", "Pune")
+        window.localStorage.setItem("PinCode", "411033")
+        window.localStorage.setItem("District", "Pune")
+        console.log(window.localStorage.getItem("Name"));
+        console.log(window.localStorage.getItem("City"));
+        console.log(window.localStorage.getItem("PinCode"));
+        console.log(window.localStorage.getItem("District"));
+        console.log(window.localStorage.removeItem("City"));
+    </script>
+</body>
+</html>
