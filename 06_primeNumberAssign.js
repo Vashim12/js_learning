@@ -36,4 +36,4 @@ function spaceCount(str) {
     return count;
 }
 console.log(`Revision is the mother of Success : ${spaceCount("Rivision is the mother of Success")}`);
-console.log(`Java Script is the laanguage of internet world : ${spaceCount("Java Script is the laanguage of internet world")}` );
+console.log(`Java Script is the language of internet world : ${spaceCount("Java Script is the laanguage of internet world")}` );
