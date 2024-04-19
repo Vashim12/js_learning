@@ -11,3 +11,4 @@ function greet(message, sayHello){
 
 let newFunction = greet.bind(person);
 newFunction("Good Morning", "Hey Hello");
+
